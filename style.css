@@ -10,7 +10,7 @@ background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 51%,rgba
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 
 	padding-top:10px;
-	border-radius:30px;
+	border-radius:0px; // this wasn't giving me aids after all, I suggest we add colour etc. Oh wait i am on that nvm. border still should be 0 tho
 	text-shadow:0 3px 4px rgba(0,0,0,.9);
 }
 .socialdiv{
